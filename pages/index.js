@@ -2,7 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import scott from '../public/scott.jpg'
-import adelphiApp from '../public/adelphi-app.png'
+import adelphiApp from '../public/adelphi-app-insta.png'
+import au2goApp from '../public/au2go-insta.png'
 import logo from '../public/logo.png'
 import styles from '../styles/Home.module.css'
 import { AiFillTwitterCircle, AiFillLinkedin, AiFillInstagram } from 'react-icons/ai'
@@ -66,23 +67,14 @@ export default function Home() {
           <h3 className='font-monserrat text-3xl my-5'>Mobile Apps</h3>
         </div>
         <div className='flex flex-col md:flex-row md:flex-wrap md:gap-7'>
-          <div className='bg-white rounded-md mb-10 shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] p-7 text-center basis-1/3 flex-1 dark:bg-slate-500 dark:text-white'>
-            <Image src={ adelphiApp } />
-            <p className='text-left'>The Adelphi University App was designed for students with input from students. Fully native implementation using Swift / Swift UI, pulling in data sources from a Django REST Framework instance.</p>
+          <div className='bg-white rounded-md mb-10 shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] text-center basis-1/3 flex-1 dark:bg-slate-500 dark:text-white'>
+            <Image src={ adelphiApp } alt='' className='rounded-t-md' />
+            <p className='text-left p-3'>The Adelphi University App was designed for students with input from students. Fully native implementation using Swift / Swift UI, pulling in data sources from a Django REST Framework instance.</p>
           </div>
 
-          <div className='bg-white rounded-md mb-10 shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] p-7 text-center basis-1/3 flex-1'>
-            <Image src={ adelphiApp } />
-            <p className='text-left'>The Adelphi University App was designed for students with input from students. Fully native implementation using Swift / Swift UI, pulling in data sources from a Django REST Framework instance.</p>
-          </div>
-
-          <div className='bg-white rounded-md mb-10 shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] p-7 text-center basis-1/3 flex-1'>
-            <Image src={ adelphiApp } />
-            <p className='text-left'>The Adelphi University App was designed for students with input from students. Fully native implementation using Swift / Swift UI, pulling in data sources from a Django REST Framework instance.</p>
-          </div>
-          <div className='bg-white rounded-md mb-10 shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] p-7 text-center basis-1/3 flex-1'>
-            <Image src={ adelphiApp } />
-            <p className='text-left'>The Adelphi University App was designed for students with input from students. Fully native implementation using Swift / Swift UI, pulling in data sources from a Django REST Framework instance.</p>
+          <div className='bg-white rounded-md mb-10 shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] text-center basis-1/3 flex-1 dark:bg-slate-500 dark:text-white'>
+            <Image src={ au2goApp } alt='' className='rounded-t-md' />
+            <p className='text-left p-3'>The Adelphi University App was designed for students with input from students. Fully native implementation using Swift / Swift UI, pulling in data sources from a Django REST Framework instance.</p>
           </div>
         </div>
       </section>
