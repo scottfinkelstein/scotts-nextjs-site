@@ -43,7 +43,7 @@ export default function Home() {
             <a href="https://twitter.com/sbf02" target="_blank" rel="noreferrer"><AiFillTwitterCircle /></a>
             <a href="https://www.linkedin.com/in/sbf0202/" target="_blank" rel="noreferrer"><AiFillLinkedin /></a>
           </div>
-          <button className='bg-gray-300 font-monserrat font-medium text-black mx-auto px-7 py-3 rounded-lg text-center'>Resumé</button>
+          {/* <button className='bg-gray-300 font-monserrat font-medium text-black mx-auto px-7 py-3 rounded-lg text-center'>Resumé</button> */}
         </div>
       </section>
       <section className='p-3 dark:text-white'>
