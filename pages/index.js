@@ -30,8 +30,8 @@ export default function Home() {
         </div>
         <h1 className='font-monserrat text-6xl uppercase m-0'>
           <span className='text-logo_blue dark:text-logo_blue_dark'>Technologist</span><br />
-          <span className='text-logo_green dark:text-logo_green_dark'>IT Leader</span><br />
-          <span className='text-logo_orange dark:text-logo_orange_dark'>Developer</span>
+          <span className='text-logo_green dark:text-logo_green_dark'>Developer</span><br />
+          <span className='text-logo_orange dark:text-logo_orange_dark'>Leader</span>
         </h1>
         {/* <h2 className='text-xl text-center p-7 pl-0 md:text-left md:pr-96'>Experienced web and mobile developer with a passion for creating digital experiences that put people first.</h2> */}
       </div>
