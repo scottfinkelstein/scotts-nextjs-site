@@ -25,10 +25,10 @@ export default function Home() {
       <Header darkMode={ darkMode } setDarkMode={ setDarkMode } />
       <main className='dark:bg-black'>
       <div className="primary-bar relative bg-gray-100 px-3 dark:bg-slate-600">
-        <div id="image" className='hidden absolute rounded-full shadow-[5px_5px_5px_rgba(0,0,0,0.5)] w-60 h-60 overflow-hidden right-20 -top-10 md:block'>
+        <div id="avatar-image" className='hidden absolute rounded-full shadow-[5px_5px_5px_rgba(0,0,0,0.5)] w-60 h-60 overflow-hidden right-20 -top-10 md:block'>
           <Image src={ scott } layout="fill" objectFit='cover' alt="" />
         </div>
-        <h1 className='font-monserrat text-6xl uppercase m-0'>
+        <h1 className='text-center font-monserrat text-5xl uppercase m-0 md:text-left md:text-6xl'>
           <span className='text-logo_blue dark:text-logo_blue_dark'>Technologist</span><br />
           <span className='text-logo_green dark:text-logo_green_dark'>Developer</span><br />
           <span className='text-logo_orange dark:text-logo_orange_dark'>Leader</span>

@@ -184,12 +184,12 @@ footer {
   }
 }
 
-@media only screen and (max-width: 900px) {
+/* @media only screen and (max-width: 900px) {
   .primary-bar h1 {
     font-size: 50px;
     text-align: center;
   }
-}
+} */
 
 @font-face {
   font-family: 'monserrat';
